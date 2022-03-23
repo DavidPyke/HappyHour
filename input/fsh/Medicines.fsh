@@ -1,5 +1,18 @@
-Profile: Scotch
-Parent: Substance
+Profile: MixedDrink
+Parent: Medication
+Id: HappyHourMixedDrink
+Title: "The Best Medicine available in a Pub"
+Description: """The is a profile of Medication for those who self-medicate
+
+Tea totallers can drink a Hot Beverage"""
+* code 1..1 
+* code = $sct#53527002 (exactly)
+* totalVolume 1..1
+* ingredient 2..* "Isn't a mixed drink if it's straight up"
+
+
+Instance: Scotch
+InstanceOf: Substance
 Id: scotch
 Title: "Our Finest Islay Single Malt"
 Description: "Best sipped neat but ice or water is allowed"
@@ -12,8 +25,8 @@ Description: "Best sipped neat but ice or water is allowed"
 * description = "The Macallan 18 Year Old"
 * quantity = 40 '%'
 
-Profile: Rum
-Parent: Substance
+Instance: Rum
+InstanceOf: Substance
 Id: rum
 Title: "Best Drink in the Islands"
 Description: "Many different colours, all one drink"
@@ -26,8 +39,8 @@ Description: "Many different colours, all one drink"
 * description = "Havana Club 7 Años"
 * quantity = 40 '%'
 
-Profile: CanadianWhiskey
-Parent: Substance
+Instance: CanadianWhiskey
+InstanceOf: Substance
 Id: Rye
 Title: "Rye Whiskey from the People that know it best"
 Description: "Canadian Club is the best known, but not always the best."

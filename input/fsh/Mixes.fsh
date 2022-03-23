@@ -1,5 +1,5 @@
-Profile: Cola
-Parent: Substance
+Instance: Cola
+InstanceOf: Substance
 Id: Cola
 Title: "Coca-cola, Pepsi, or whatever"
 Description: "A carbonated soft drink flavored with vanilla, cinnamon, citrus oils and other flavorings"
