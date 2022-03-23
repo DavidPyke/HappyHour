@@ -1,0 +1,15 @@
+{
+ "package-id" : "fhir.uv.happyhour",
+ "title" : "Happy Hour FHIR Implementation Guide", 
+ "canonical" : "http://www.fhir.org/guides/hotbeverage", 
+ "introduction" : "Happiness is the best medicine, so HappyHour is the best treatment!",
+ "category": "Humor",
+ "list" : [{
+  "version" : "current",
+  "desc" : "Continuous Integration Build (latest in version control)",
+  "path" : "http://build.fhir.org/ig/AudaciousInquiry/HappyHour/branches/main/index.html",
+  "status" : "ci-build",
+  "current" : true
+  }
+ ]
+}

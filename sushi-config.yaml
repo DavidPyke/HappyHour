@@ -1,4 +1,4 @@
-id: fhir.ig.happyhour
+id: fhir.uv.happyhour
 canonical: http://example.org
 name: HappyHour
 title: The Happy Hour FHIR Implementation Guide
