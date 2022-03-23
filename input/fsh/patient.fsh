@@ -9,9 +9,17 @@ Description: "A true patron of the drinking arts."
 * maritalStatus = http://terminology.hl7.org/CodeSystem/v3-MaritalStatus#D
 
 Instance: TheFHIRyDragon
-InstanceOf: Organization
+InstanceOf: Location
 Usage: #example
 Title: "The FHIRy Dragon"
 Description: "The Best Public House with the Best Drinks"
 * name = "The FHIRy Dragon"
-* type = http://terminology.hl7.org/CodeSystem/organization-type#prov
+* type = http://terminology.hl7.org/CodeSystem/v3-RoleCode#COMM
+
+Instance: BenMix
+InstanceOf: Practitioner
+Usage: #example
+Title: "Ben Mix.  The Man with the Drinks"
+Description: "The local Bartender"
+* name.given = "Ben"
+* name.family = "Mix"
