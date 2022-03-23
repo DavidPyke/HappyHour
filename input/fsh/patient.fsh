@@ -6,6 +6,7 @@ Description: "A true patron of the drinking arts."
   * family = "Alcoholic"
 * gender = #other
 * deceasedBoolean = false
+* birthDate = 2003-01-01
 * maritalStatus = http://terminology.hl7.org/CodeSystem/v3-MaritalStatus#D
 
 Instance: TheFHIRyDragon

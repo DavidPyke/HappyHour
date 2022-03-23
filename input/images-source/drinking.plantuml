@@ -1,0 +1,32 @@
+@startuml
+
+@startuml
+skinparam usecase {
+backgroundColor DeepSkyBlue
+BorderColor DarkSlateGray
+ArrowColor Blue
+}
+
+skinparam Note {
+BackgroundColor LightBlue
+BorderColor Blue
+}
+
+skinparam roundcorner 20
+
+skinparam actor {
+FontName Arial
+Style awesome
+BorderColor DeepSkyBlue
+BackgroundColor LightBlue
+}
+
+actor Drinker
+actor Bartender
+
+loop until drunk
+Drinker -> Bartender : Gives DrinkOrder to Bartender
+Bartender -> Drinker : Dispenses Tasty Drink to Drinker
+end
+Bartender -> Drinker : Hands bill for payment
+@enduml
