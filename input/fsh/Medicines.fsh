@@ -8,12 +8,11 @@ Tea totallers can drink a Hot Beverage"""
 * code 1..1 
 * code = $sct#53527002 (exactly)
 * totalVolume 1..1
-* ingredient 2..* "Isn't a mixed drink if it's straight up"
-
+* ingredient 2..* 
+    
 
 Instance: Scotch
 InstanceOf: Substance
-Id: scotch
 Title: "Our Finest Islay Single Malt"
 Description: "Best sipped neat but ice or water is allowed"
 * identifier.system  = "http://www.example.org/bar/drinks"
@@ -27,7 +26,6 @@ Description: "Best sipped neat but ice or water is allowed"
 
 Instance: Rum
 InstanceOf: Substance
-Id: rum
 Title: "Best Drink in the Islands"
 Description: "Many different colours, all one drink"
 * identifier.system = "http://www.example.org/bar/drinks"
@@ -41,7 +39,6 @@ Description: "Many different colours, all one drink"
 
 Instance: CanadianWhiskey
 InstanceOf: Substance
-Id: Rye
 Title: "Rye Whiskey from the People that know it best"
 Description: "Canadian Club is the best known, but not always the best."
 * identifier.system = "http://www.example.org/bar/drinks"
