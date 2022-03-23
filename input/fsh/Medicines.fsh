@@ -4,12 +4,20 @@ Id: HappyHourMixedDrink
 Title: "The Best Medicine available in a Pub"
 Description: """The is a profile of Medication for those who self-medicate
 
-Tea totallers can drink a Hot Beverage"""
-* code 1..1 
-* code = $sct#53527002 (exactly)
-* totalVolume 1..1
+Tea totallers can drink a [Hot Beverage](http://www.fhir.org/guides/hotbeverage)"""
+
+* code = $sct#608772009 (exactly)
 * ingredient 2..* 
-    
+
+Instance: CubaLibre
+InstanceOf: MixedDrink
+Usage: #example
+Title: "The Drink that Won the Revolution"
+Description: "It's a Rum and Coke, calling it anything else doesn't change what's in it."
+
+* ingredient[0].item.reference = Reference(Rum)
+* ingredient[1].item.reference = Reference(Cola)
+
 
 Instance: Scotch
 InstanceOf: Substance
