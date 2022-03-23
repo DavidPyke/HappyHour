@@ -5,8 +5,8 @@ Description: "A true patron of the drinking arts."
   * given[0] = "Ima"
   * family = "Alcoholic"
 * gender = #other
-* deceasedBoolean = #false
-* maritalStatus = #D
+* deceasedBoolean = false
+* maritalStatus = http://terminology.hl7.org/CodeSystem/v3-MaritalStatus#D
 
 Instance: TheFHIRyDragon
 InstanceOf: Organization
@@ -14,4 +14,4 @@ Usage: #example
 Title: "The FHIRy Dragon"
 Description: "The Best Public House with the Best Drinks"
 * name = "The FHIRy Dragon"
-* type = #prov
+* type = http://terminology.hl7.org/CodeSystem/organization-type#prov
