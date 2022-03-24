@@ -16,3 +16,10 @@ Here is a basic treatement flow:
 This workflow shows the role that a Bartender has within the Care domain.  This role cannot be stressed enough in our modern day society.
 
 Alternate flows may use Beer or Wine as standalone Medications without the need for backing Substances, but that is out of scope for this IG.
+
+A state diagram for Happy Hour tends to follow this pattern.
+
+<figure>
+{% include statediagram.svg %}
+<figcaption>Drinking drinking</figcaption>
+</figure>

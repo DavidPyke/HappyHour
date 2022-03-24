@@ -1,0 +1,17 @@
+@startuml DrinkState
+[*] -> Sober 
+Sober : It's hot and I'm thirsty
+Sober -> Drinking
+state Drinking {
+[*] -right-> OrderDrink
+OrderDrink -right-> MakeDrink
+MakeDrink -down-> GiveDrink
+GiveDrink -> DrinkDrink
+DrinkDrink -> OrderDrink
+DrinkDrink -right-> DrunkDrink
+DrunkDrink -> OrderDrink
+}
+DrunkDrink -> DropDrink
+DropDrink -> Drunk
+Drunk -> [*]
+@enduml
