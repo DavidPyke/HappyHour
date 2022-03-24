@@ -1,4 +1,4 @@
-@startuml Bar Visit
+@startuml BarVisit
 
 @startuml
 skinparam usecase {

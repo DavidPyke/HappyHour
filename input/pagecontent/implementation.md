@@ -18,6 +18,7 @@ Transactions include:
 | Drink Creator | Create Drink Object |
 | Drink Dispenser | Dispense Drink Object | 
 | Drink Consumer | Drink Drink Object |
+{:.table-striped}
 
 In addition, the billing workflow is simple and uses the same roles in different Actor configurations.
 
@@ -30,5 +31,6 @@ These transactions include:
 | Invoice Receiver | Receive Invoice|
 | Invoice Receiver | Remark on Invoice Quantity |
 | Invoice Receiver | Pay Invoice |
+{:.table-striped}
 
 Actors and Transactions regarding violent and/or obnoxious behaviour are out of scope for this Guide.
