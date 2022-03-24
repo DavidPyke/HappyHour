@@ -1,4 +1,4 @@
-@startuml
+@startuml Bar Visit
 
 @startuml
 skinparam usecase {
@@ -25,9 +25,12 @@ actor Drinker
 actor Bartender
 
 loop until drunk
+Drinker -> Drinker : Creates Drink Oder
 Drinker -> Bartender : Gives DrinkOrder to Bartender
-Bartender -> Bartender : mixes Substances (alchol and mix)\ninto Medications (mixed drinks)
+Bartender -> Bartender : Mixes Substances (alchol and mix)\ninto Medications (mixed drinks)
 Bartender -> Drinker : Dispenses Tasty MixedDrink to Drinker
+Drinker -> Drinker : Consumes Drink
 end
 Bartender -> Drinker : Hands bill for payment
+Drinker -> Bartender : Pays Bill
 @enduml
