@@ -1,4 +1,20 @@
 @startuml
+
+@startuml
+skinparam state {
+backgroundColor DeepSkyBlue
+BorderColor DarkSlateGray
+ArrowColor Blue
+}
+
+skinparam Note {
+BackgroundColor LightBlue
+BorderColor Blue
+}
+
+skinparam roundcorner 20
+
+
 [*] -> Sober 
 Sober : It's hot and I'm thirsty
 Sober -> Drinking
@@ -8,10 +24,10 @@ OrderDrink -right-> MakeDrink
 MakeDrink -down-> GiveDrink
 GiveDrink -> DrinkDrink
 DrinkDrink -> OrderDrink
-DrinkDrink -right-> DrunkDrink
-DrunkDrink -> OrderDrink
+DrinkDrink -right-> DrankDrink
+DrankDrink -> OrderDrink
 }
-DrunkDrink -> DropDrink
+GiveDrink -> DropDrink
 DropDrink -> Drunk
 Drunk -> [*]
 @enduml
