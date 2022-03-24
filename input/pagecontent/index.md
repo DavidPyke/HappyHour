@@ -11,7 +11,7 @@ Remember, if you're not someone who imbibes, there's always [Hot Beverage](http:
 Here is a basic treatement flow:
 <figure>
 {% include drinking.svg %}
-<figcaption>Out drinking</figcaption>
+<figcaption>Sequenced drinking</figcaption>
 </figure>
 
 This workflow shows the role that a Bartender has within the Care domain.  This role cannot be stressed enough in our modern day society.
@@ -22,5 +22,5 @@ A state diagram for Happy Hour tends to follow this pattern.
 
 <figure>
 {% include statediagram.svg %}
-<figcaption>Drinking drinking</figcaption>
+<figcaption>State of Inebriation</figcaption>
 </figure>

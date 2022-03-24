@@ -18,6 +18,15 @@ Description: "It's a Rum and Coke, calling it anything else doesn't change what'
 * ingredient[0].item.reference = Reference(Rum)
 * ingredient[1].item.reference = Reference(Cola)
 
+Instance: SexOnTheBeach
+InstanceOf: MixedDrink
+Usage: #example
+Title: "Sex On The Beach"
+Description: "THe only kind that doesn't get sand everywhere"
+* ingredient[0].item.reference = Reference(Vodka)
+* ingredient[1].item.reference = Reference(PeachSchnapps)
+* ingredient[2].item.reference = Reference(Orange)
+* ingredient[3].item.reference = Reference(Cranberry)
 
 Instance: Scotch
 InstanceOf: Substance
@@ -58,3 +67,30 @@ Description: "Canadian Club is the best known, but not always the best."
 * description = "Alberta Premium Cask Strength"
 * quantity = 65 '%'
 
+Instance: Vodka
+InstanceOf: Substance
+Usage: #example
+Title: "Eastern European drink of choice"
+Description: "Was from potatoes, now it's just Ethanol"
+* identifier.system = "http://www.example.org/bar/drinks"
+* identifier.value = "Vodka"
+* category = $sct#53527002
+* instance = false
+* status = #active
+* code.concept = $sct#226064009
+* description = "Wyborowa Vodka"
+* quantity = 40 '%'
+
+Instance: PeachSchnapps
+InstanceOf: Substance
+Usage: #example
+Title: "Fuzzy Navels and More"
+Description: "Peachy Sweet, the drink of underage"
+* identifier.system = "http://www.example.org/bar/drinks"
+* identifier.value = "PeachSchnapps"
+* category = $sct#53527002
+* instance = false
+* status = #active
+* code.concept = $sct#228983009
+* description = "McGuinness Peach Schnapps"
+* quantity = 40 '%'
