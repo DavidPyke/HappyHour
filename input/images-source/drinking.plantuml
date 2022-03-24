@@ -26,7 +26,8 @@ actor Bartender
 
 loop until drunk
 Drinker -> Bartender : Gives DrinkOrder to Bartender
-Bartender -> Drinker : Dispenses Tasty Drink to Drinker
+Bartender -> Bartender : mixes Substances (alchol and mix)\ninto Medications (mixed drinks)
+Bartender -> Drinker : Dispenses Tasty MixedDrink to Drinker
 end
 Bartender -> Drinker : Hands bill for payment
 @enduml
