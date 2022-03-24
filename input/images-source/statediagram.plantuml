@@ -1,4 +1,4 @@
-@startuml DrinkState
+@startuml
 [*] -> Sober 
 Sober : It's hot and I'm thirsty
 Sober -> Drinking
