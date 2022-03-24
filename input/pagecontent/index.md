@@ -6,6 +6,7 @@ HappyHour has the full flow, using Medication resources and the Invoice/ChargeIt
 
 When dealing with the bar/pub workflows, we realized that working with Substances to create Medications was core to the supportive role of the Practioner... er... Bartender.
 
+Remember, if you're not someone who imbibes, there's always [Hot Beverage](http://www.fhir.org/guides/hotbeverage).
 
 Here is a basic treatement flow:
 <figure>
