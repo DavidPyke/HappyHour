@@ -4,7 +4,7 @@ Id: HappyHourMixedDrink
 Title: "The Best Medicine available in a Pub"
 Description: """The is a profile of Medication for those who self-medicate
 
-Tea totallers can drink a [Hot Beverage](http://www.fhir.org/guides/hotbeverage)"""
+Tea totallers can drink a [Hot Beverage](http://www.fhir.org/guides/acme/HotBeverage)"""
 
 * code = $sct#608772009 (exactly)
 * ingredient 2..* 

@@ -8,16 +8,19 @@ When dealing with the bar/pub workflows, we realized that working with Substance
 This workflow shows the role that a Bartender has within the Care domain.  This role cannot be stressed enough in our modern day society.
 
 Here is a basic treatement flow:
-<figure>
+<center><figure>
 {% include drinking.svg %}
-<figcaption>Sequenced drinking</figcaption>
-</figure>
-
+<figcaption>Fig.1 Sequenced Drinking</figcaption>
+</figure></center>
+<br/>
+#### State Diagram
 A state diagram for a standard Happy Hour interaction tends to follow this pattern.
 
-<figure>
+<center><figure>
 {% include statediagram.svg %}
-<figcaption>State of Inebriation</figcaption>
-</figure>
+<figcaption>Fig.2 State of Inebriation</figcaption>
+</figure></center>
+<br/>
 
-Alternate flows may use Beer or Wine as standalone Medications without the need for backing Substances, but that is out of scope for this IG. And remember, if you're not someone who imbibes, there's always a [Hot Beverage](http://www.fhir.org/guides/hotbeverage) waiting for you.
+
+Alternate flows may use Beer or Wine as standalone Medications without the need for backing Substances, but that is out of scope for this IG at this time. And remember, if you're not someone who imbibes, there's always a [Hot Beverage](http://www.fhir.org/guides/acme/HotBeverage) waiting for you.
