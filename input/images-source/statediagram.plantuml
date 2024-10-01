@@ -2,21 +2,26 @@
 
 !theme cerulean
 
-
-
 [*] -> Sober 
 Sober : It's hot and\n I'm thirsty
-Sober -> Drinking
+Sober -> Drinking : I'll just\nhave one
 state Drinking {
-[*] -right-> OrderDrink
-OrderDrink -right-> MakeDrink
-MakeDrink -down-> GiveDrink
-GiveDrink -> DrinkDrink
-DrinkDrink -> OrderDrink
-DrinkDrink -right-> DrankDrink
-DrankDrink -> OrderDrink
+[*] -> OrderDrink
+OrderDrink : I'll have my usual
+OrderDrink --> MakeDrink
+MakeDrink : All in good measure
+MakeDrink --> GiveDrink
+GiveDrink : No, don't flirt\nwith your server
+GiveDrink --> DrinkDrink
+DrinkDrink : Don't let it sit there
+DrinkDrink --> OrderDrink
+DrinkDrink --> DrankDrink
+DrankDrink : There's a problem\nwith my drink
+DrankDrink --> OrderDrink
 }
 GiveDrink -> DropDrink
+DropDrink : You're cut off
 DropDrink -> Drunk
+Drunk : Time to go
 Drunk -> [*]
 @enduml
