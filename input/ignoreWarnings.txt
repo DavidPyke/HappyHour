@@ -3,3 +3,8 @@
 # Add warning and/or information messages here after you've confirmed that they aren't really a problem
 # (And include comments like this justifying why)
 # See https://github.com/FHIR/sample-ig/blob/master/input/ignoreWarnings.txt for examples
+
+# These are issues in R5 Core
+%which is experimental, but this structure is not labeled as experimental
+%which is experimental, but this definition is not labeled as experimental
+INFORMATION: StructureDefinition/DrinkDispense: StructureDefinition.snapshot.element[30].mapping[0].map: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk

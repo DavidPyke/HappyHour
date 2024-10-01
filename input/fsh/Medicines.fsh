@@ -5,8 +5,9 @@ Title: "The Best Medicine available in a Pub"
 Description: """The is a profile of Medication for those who self-medicate
 
 Tea totallers can drink a [Hot Beverage](http://www.fhir.org/guides/acme/HotBeverage)"""
+* ^experimental = true
 
-* code = $sct#608772009 (exactly)
+* code = $sct#608772009 
 * ingredient 2..* 
 
 Instance: CubaLibre
@@ -22,7 +23,7 @@ Instance: SexOnTheBeach
 InstanceOf: MixedDrink
 Usage: #example
 Title: "Sex On The Beach"
-Description: "THe only kind that doesn't get sand everywhere"
+Description: "The only kind that doesn't get sand everywhere"
 * ingredient[0].item.reference = Reference(Vodka)
 * ingredient[1].item.reference = Reference(PeachSchnapps)
 * ingredient[2].item.reference = Reference(Orange)
@@ -31,7 +32,7 @@ Description: "THe only kind that doesn't get sand everywhere"
 Instance: Scotch
 InstanceOf: Substance
 Title: "Our Finest Islay Single Malt"
-Description: "Best sipped neat but ice or water is allowed"
+Description: "Best sipped neat but ice or a drop of water is allowed"
 * identifier.system  = "http://www.example.org/bar/drinks"
 * identifier.value = "Scotch Whiskey"
 * category = $sct#53527002

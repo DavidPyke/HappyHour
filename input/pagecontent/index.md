@@ -24,3 +24,6 @@ A state diagram for a standard Happy Hour interaction tends to follow this patte
 
 
 Alternate flows may use Beer or Wine as standalone Medications without the need for backing Substances, but that is out of scope for this IG at this time. And remember, if you're not someone who imbibes, there's always a [Hot Beverage](http://www.fhir.org/guides/acme/HotBeverage) waiting for you.
+
+### Legal Stuff
+{% include ip-statements.xhtml %}

@@ -2,11 +2,12 @@ Profile: DrinkOrder
 Parent: MedicationRequest
 Title: "Waiter?  Where's my drink?"
 Description: "This is a base profile to order a drink from the pub"
-* intent = #order (exactly)
+* ^experimental = true
+* intent = #order 
 * category = http://terminology.hl7.org/CodeSystem/medicationrequest-admin-location#community
 * performer 1..1
 * performerType = http://www.example.org/bartender#Bartender
-* reason.concept = $sct#249475006
+* reason.concept = $sct#249477003
 * requester only Reference(Patient)
 * courseOfTherapyType = http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy#acute
 
@@ -23,8 +24,9 @@ Description: "An order for a rum and coke"
 
 Profile: DrinkDispense
 Parent: MedicationDispense
-Title: "Here's your drink"
+Title: "Here is your drink"
 Description: "The dispensing of a refreshing beverage"
+* ^experimental = true
 * subject only Reference(Patient)
 * dosageInstruction.asNeeded = true
 * performer 1..1

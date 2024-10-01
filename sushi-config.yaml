@@ -1,12 +1,12 @@
 id: fhir.uv.happyhour
-canonical: http://example.org
+canonical: http://pyke.ca
 name: HappyHour
 title: The Happy Hour FHIR Implementation Guide
 description: Laughter may be the best medicine, but Alcohol is a close second.
 status: draft 
-version: 1.4.2022
+version: 0.1.4.2024
 fhirVersion: 5.0.0
-copyrightYear: 2022+
+copyrightYear: 2024+
 releaseLabel: ci-build 
 publisher:
   name: Pyke Health IT Inc
@@ -19,6 +19,8 @@ pages:
   implementation.md:
   examples.md:
     title: Examples Overview
+  techanalysis.md:
+    title: Technical Analysis
     
 parameters:
     excludettl: true
@@ -28,10 +30,11 @@ menu:
   Examples : examples.html
   Implementation : implementation.html
   Artifacts: artifacts.html
+  Technical Analysis: techanalysis.html
 
 contact:
   - name: Dave Pyke
     telecom:
       - system: email 
-        value: dpyke@ainq.com
+        value: david@pyke.ca
         use: work
