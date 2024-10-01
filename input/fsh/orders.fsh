@@ -26,7 +26,7 @@ Parent: MedicationDispense
 Title: "Here's your drink"
 Description: "The dispensing of a refreshing beverage"
 * subject only Reference(Patient)
-* dosageInstruction.asNeededBoolean = true
+* dosageInstruction.asNeeded = true
 * performer 1..1
 * performer.actor only Reference(Practitioner or PractitionerRole)
 

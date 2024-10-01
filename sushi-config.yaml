@@ -5,13 +5,13 @@ title: The Happy Hour FHIR Implementation Guide
 description: Laughter may be the best medicine, but Alcohol is a close second.
 status: draft 
 version: 1.4.2022
-fhirVersion: 5.0.0-snapshot1
+fhirVersion: 5.0.0
 copyrightYear: 2022+
 releaseLabel: ci-build 
 publisher:
-  name: Audacious Inquiry
-  url: https://www.ainq.com
-  email: dpyke@ainq.com
+  name: Pyke Health IT Inc
+  url: https://www.pyke.ca
+  email: david@pyke.ca
 
 pages:
   index.md:

@@ -1,25 +1,6 @@
 @startuml
 
-@startuml
-skinparam usecase {
-backgroundColor DeepSkyBlue
-BorderColor DarkSlateGray
-ArrowColor Blue
-}
-
-skinparam Note {
-BackgroundColor LightBlue
-BorderColor Blue
-}
-
-skinparam roundcorner 20
-
-skinparam actor {
-FontName Arial
-Style awesome
-BorderColor DeepSkyBlue
-BackgroundColor LightBlue
-}
+!theme cerulean
 
 actor Drinker
 actor Bartender
