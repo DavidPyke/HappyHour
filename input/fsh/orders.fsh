@@ -6,7 +6,7 @@ Description: "This is a base profile to order a drink from the pub"
 * intent = #order 
 * category = http://terminology.hl7.org/CodeSystem/medicationrequest-admin-location#community
 * performer 1..1
-* performerType = http://www.example.org/bartender#Bartender
+* performerType = Waitstaff#bartender
 * reason.concept = $sct#249477003
 * requester only Reference(Patient)
 * courseOfTherapyType = http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy#acute
@@ -108,3 +108,18 @@ Description: "Simple description of an item on the bill"
 * code = http://terminology.hl7.org/CodeSystem/chargeitem-billingcodes#1320
 * performer.actor = Reference(BenMix)
 * subject = Reference(DrinkingBuddy)
+
+CodeSystem: Waitstaff
+Title: "People who Work in Bars"
+Description: "They do vital work.  Tip handsomely"
+* ^caseSensitive = false
+* ^experimental = false
+* #bartender "Makes the drinks"
+* #server "S/he serves the drinks"
+* #bus "They clean the mess up"
+
+ValueSet: WaitstaffVS
+Id: WaitstaffVS
+Title: "The People Who Do The Work"
+Description: "They make and bring drinks.  What's not to love?"
+* include codes from system Waitstaff
