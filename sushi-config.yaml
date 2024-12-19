@@ -4,7 +4,7 @@ name: HappyHour
 title: The Happy Hour FHIR Implementation Guide
 description: Laughter may be the best medicine, but Alcohol is a close second.
 status: draft 
-version: 0.1
+version: 0.1.0-preview
 fhirVersion: 5.0.0
 copyrightYear: 2024+
 releaseLabel: ci-build 
